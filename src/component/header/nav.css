@@ -1,0 +1,20 @@
+
+.navStyle {
+ text-align: center;
+ justify-content: center;
+ display: flex;
+}
+.navStyle li{
+    margin-left: 80px;
+    list-style: none;
+    padding: 15px;
+    }
+.navStyle a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  }
+  .navStyle li :hover{
+    color: #815939;
+
+    }
