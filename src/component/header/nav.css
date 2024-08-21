@@ -3,6 +3,7 @@
  text-align: center;
  justify-content: center;
  display: flex;
+ align-content: center;
 }
 .navStyle li{
     margin-left: 80px;
@@ -17,4 +18,25 @@
   .navStyle li :hover{
     color: #815939;
 
+    }
+    .drawerMenu{
+      display: none;
+     }
+
+    @media only screen and (max-width: 900px){
+      .navStyle {
+       
+        display: none;
+       
+       }
+       .drawerMenu{
+        display: block;
+       text-align: center;
+       }
+       .menuBarIcon :hover{
+        color:#f7e99a ;
+       }
+       .menuBarBtn{
+        background-color: #FFFAE6;
+       }
     }
