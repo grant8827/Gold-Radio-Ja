@@ -1,7 +1,7 @@
 import React from 'react'
 import Drawer from 'react-modern-drawer';
 import {Link} from 'react-router-dom';
-import {  faHouse, faBars} from '@fortawesome/free-solid-svg-icons';
+import {  faHouse, faInfo, faBars, faClock} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon,} from '@fortawesome/react-fontawesome'
 
 //import styles 👇
@@ -17,17 +17,20 @@ function DrawerView() {
             <Drawer
                 open={isOpen}
                 onClose={toggleDrwaer}
-                direction='top'
+                direction='left'
                 className='bla bla bla'
-                style={{width:'250px',}}
+                
+                style={{width:'200px',}}
             >
-               <ul style={{alignContent:'left', margin:'auto', justifyContent:'left'}}>
-                <li> <FontAwesomeIcon icon={faHouse} /><Link style={{margin:'10px'}} to="/">Home</Link></li>
-                <li><Link  to="/About">About</Link></li>
-                <li> <Link  to="/Schedule">Schedule</Link></li>
-                <li><Link to="/Contact">Contact</Link></li>
+              <img width='200px' src={require('../assets/images/gold_radioja.png')}/>
+               <ul style={{alignContent:'left', margin:'auto', justifyContent:'left', listStyle:'none', float:'left', textAlign:'left'}}>
+                <li style={{marginTop:'20px',}} >  <Link style={{ textDecoration:'none', color:'#000000' }}  to="/">Home</Link></li>
+                <li style={{marginTop:'20px',}} ><Link style={{ textDecoration:'none', color:'#000000'}}  to="/About">About</Link></li>
+                <li style={{marginTop:'20px',}} > <Link  style={{ textDecoration:'none', color:'#000000'}}  to="/Schedule">Schedule</Link></li>
+                <li style={{marginTop:'20px',}} ><Link style={{ textDecoration:'none', color:'#000000'}}  to="/Contact">Contact</Link></li>
                 
             </ul>
+            
             </Drawer> 
     </div>
   )
