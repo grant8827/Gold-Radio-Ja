@@ -1,3 +1,21 @@
+/*home page css*/
+.bodyView{
+   width: auto;
+   margin: 0px 180px 0px 180px;
+   background-color:rgba(148, 138, 1, 0.076);
+}
+
+.homeBody{
+    
+    align-items: center;
+    justify-content: space-around;
+    width:auto;
+    height: auto;
+    background-color: #fffae6;
+    min-height: 100px;
+overflow: hidden;
+}
+
 /*about page css*/
 .aboutStyles{
     margin: auto;
@@ -7,3 +25,27 @@
     background-color: #fffae6;
 }
 
+@media only screen and (max-width: 900px){
+  
+     .homeBody{
+     
+    }
+    .bodyView{
+ margin: 0;
+    }
+    .slides{
+      display: block;
+      margin: 10px;
+    }
+    .radioPlayerDiv{
+      flex-direction: column;
+      margin: auto;
+     align-items: center;
+     width: 100%;
+      }
+  }
+
+  @media only screen and (max-width: 500px){
+   
+    
+  }

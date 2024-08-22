@@ -11,22 +11,31 @@ const images = [
 ];
 function SlideView() {
   return (
-    <Slide style={{width:'auto', height:'400px', alignContect:'center'}}>
+    <Slide style={{ margin:'20px', width:'100%', height:'400px', alignContect:'center'}}>
       <div className="each-slide-effect" >
                 <div style={{ 'backgroundImage': `url(${images[0]})` }}>
-                    <span>Slide 1</span>
+                <div className='slides'>
+                    <img style={{marginLeft:'30px', width:'300px'}} src={require('../assets/images/about-image.png')}/>
+                    <span>Rev Ivan Hall</span>
+                    </div>
                 </div>
             </div> 
             <div className="each-slide-effect">
                 <div style={{ 'backgroundImage': `url(${images[1]})` }}>
+                   
+                    <div className='slides'>
                     <img style={{marginLeft:'30px', width:'300px'}} src={require('../assets/images/slideimg1.jpg')}/>
                     <span>Rev Ivan Hall</span>
+                    </div>
                 </div>
             </div>
             <div className="each-slide-effect">
                 <div style={{ 'backgroundImage': `url(${images[2]})` }}>
-                <img style={{marginLeft:'30px', width:'300px'}} src={require('../assets/images/about-image.png')}/>
+               
+                    <div className='slides'>
+                    <img style={{marginLeft:'30px', width:'300px'}} src={require('../assets/images/about-image.png')}/>
                     <span>Rev Ivan Hall</span>
+                    </div>
                 </div>
             </div>
         </Slide>

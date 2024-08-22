@@ -8,19 +8,26 @@ import Contact from './component/pages/Contact';
 import Footer from './component/compViews/Footer';
 function App() {
   return (
-    <Router>
+  
+  <div style={{width:'100%', padding:'0px', margin:'auto', }}>
+ <Router>
       
-<div className="App">
-     <Navbar/>
-    </div>
-    <Routes>
-     <Route path='/' element = {<Home />}/>
-     <Route path='About' element = {<About/>}/>
-     <Route path='Schedule' element = {<Schedule/>}/>
-     <Route path='Contact' element = {<Contact/>}/>
-    </Routes>
-    <Footer/>
-    </Router>
+      <div className="App">
+           <Navbar/>
+          </div>
+          <Routes>
+           <Route path='/' element = {<Home />}/>
+           <Route path='About' element = {<About/>}/>
+           <Route path='Schedule' element = {<Schedule/>}/>
+           <Route path='Contact' element = {<Contact/>}/>
+          </Routes>
+          <footer>
+          <Footer/>
+          </footer>
+         
+          </Router>
+  </div>
+   
     
   );
 }

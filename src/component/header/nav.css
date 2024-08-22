@@ -1,4 +1,6 @@
-
+.mainNav{
+  width: 100%;
+}
 .navStyle {
  text-align: center;
  justify-content: center;
@@ -19,11 +21,12 @@
     color: #815939;
 
     }
+   
     .drawerMenu{
       display: none;
      }
 
-    @media only screen and (max-width: 900px){
+     @media only screen and (max-width: 900px){
       .navStyle {
        
         display: none;
@@ -39,4 +42,7 @@
        .menuBarBtn{
         background-color: #FFFAE6;
        }
+       
     }
+  
+  
