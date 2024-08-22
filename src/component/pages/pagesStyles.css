@@ -24,38 +24,32 @@ overflow: hidden;
     height: 100%;
     background-color: #fffae6;
 }
-.aboutText{
-  width: auto;
-  margin: 0px 180px 0px 180px;
-  background-color:rgba(148, 138, 1, 0.076);
-}
-
-
-
-
-
 
 @media only screen and (max-width: 900px){
   
     .bodyView{
  margin: 0;
- padding: 5px;
     }
     .slides{
       display: block;
       margin: 10px;
-      height: auto;
     }
     .radioPlayerDiv{
       flex-direction: column;
       margin: auto;
      align-items: center;
      width: 100%;
+     text-align: center;
       }
-      .aboutText{
-        width: auto;
-        margin: 0;
-       padding: 5px;
+      .aboutOwner{
+        flex-direction: column;
+      margin: auto;
+     align-items: center;
+     width: 100%;
+      }
+      .owerDetails{
+        align-items: center;
+        text-align: center;
       }
   }
 

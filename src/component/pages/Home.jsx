@@ -2,6 +2,7 @@ import React from 'react'
 import '../../App.css'
 import SlideView from '../compViews/SlideView';
 import RadioPlayer from '../compViews/RadioPlayer';
+import AboutOwner from '../compViews/AboutOwner';
 function Home() {
   return (
     <div className='homeBody'>
@@ -11,7 +12,7 @@ function Home() {
        <div className='slideShow' style={{  width:'auto', height:'500px', marginTop:'50px', margin:'20px'}}>
        <SlideView/>
        </div>
-      
+      <AboutOwner/>
       </div>
       
 
