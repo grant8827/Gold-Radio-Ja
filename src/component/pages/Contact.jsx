@@ -1,8 +1,20 @@
-import React from 'react'
-
+import React from 'react';
+import ContactForm from '../compViews/ContactForm';
 function Contact() {
   return (
-    <div>Contact</div>
+    <div>
+      <div className='contactDetails'>
+        <h3>Contact</h3>
+        <div className='contactInfo'>
+        <div>
+          <p>ivanhall20@yahoo.com</p>
+          <p>876-384-8037</p>
+          <p> 876-330-9404</p>
+        </div>
+        
+        </div>
+      </div>
+    </div>
   )
 }
 

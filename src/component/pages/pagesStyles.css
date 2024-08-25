@@ -24,6 +24,33 @@ overflow: hidden;
     height: 100%;
     background-color: #fffae6;
 }
+.aboutText{
+  margin: 0px 180px 0px 180px ;
+  background-color:rgba(148, 138, 1, 0.076);
+
+}
+
+/*shedule page css*/
+.sheduleList{
+  margin: 0px 180px 0px 180px;
+  background-color:rgba(148, 138, 1, 0.076);
+  padding: 20px;
+}
+.sheduleList li{
+  margin: 10px;
+  background-color:rgba(148, 138, 1, 0.076);
+
+
+}
+/*contact page css*/
+.contactDetails{
+  width: auto;
+  margin: 0px 180px 0px 180px;
+}
+.contactInfo{
+  display: flex;
+}
+
 
 @media only screen and (max-width: 900px){
   
