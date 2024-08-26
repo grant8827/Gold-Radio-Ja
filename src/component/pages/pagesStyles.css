@@ -21,7 +21,7 @@ overflow: hidden;
     margin: auto;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 1100px;
     background-color: #fffae6;
 }
 .aboutText{
@@ -46,6 +46,7 @@ overflow: hidden;
 .contactDetails{
   width: auto;
   margin: 0px 180px 0px 180px;
+  height:1100px;
 }
 .contactInfo{
   display: flex;
@@ -78,6 +79,19 @@ overflow: hidden;
         align-items: center;
         text-align: center;
       }
+      .aboutText{
+        margin: 0;
+       
+      
+      }
+      .sheduleList{
+        margin: 0;
+      
+    }
+    .contactDetails{
+    padding: 10px;
+      margin: 0;
+    }
   }
 
   @media only screen and (max-width: 500px){
