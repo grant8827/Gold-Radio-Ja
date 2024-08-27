@@ -1,5 +1,4 @@
 import React from 'react';
-import ContactForm from '../compViews/ContactForm';
 function Contact() {
   return (
     <div>

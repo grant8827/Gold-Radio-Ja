@@ -2,11 +2,6 @@ import React from 'react';
 import radiostation from '../assets/images/radiostation.jpg'
 
 function Bonner() {
-    var backgroundImage = {
-        backgroundImage: "url(" + {radiostation} +")",
-        width:'auto',
-        height:'200px'
-      }
   return (
     <div style={{width:'auto', marginTop:'20px',marginBottom:'80px', padding:'20px', backgroundImage: `url(${radiostation} )`,  backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat', backgroundPosition: 'center', textAlign:'center' }}>
