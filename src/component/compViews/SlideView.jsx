@@ -15,7 +15,7 @@ const images = [
 function SlideView() {
   return (
     <Slide style={{ margin:'20px', width:'100%', height:'auto', alignContect:'center'}}>
-      <div className="each-slide-effect" >
+      <div className="each-slide-effect">
                 <div style={{ 'backgroundImage': `url(${images[0]})` }}>
                 <div className='slides' style={{backgroundColor:'#00000030',}}>
                     <img style={{margin:'10px', width:'300px'}} src={slideimg2} alt='slide1'/>
