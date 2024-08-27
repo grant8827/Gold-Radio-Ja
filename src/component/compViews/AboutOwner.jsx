@@ -4,7 +4,7 @@ import '../pages/pagesStyles.css'
 function AboutOwner() {
   return (
     <div>
-        <div className='abourtOwne' style={{display:'flex', justifyContent:'center'}}>
+        <div className='abourtOwne' style={{display:'flex', justifyContent:'center',}}>
             <img style={{width:'300px', margin:'20px'}} src={require('../assets/images/ivanhallimg.png')}/>
             
             <div className='owerDetails' style={{margin:'20px', width:'500px',}}>
