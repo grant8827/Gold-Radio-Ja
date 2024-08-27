@@ -3,7 +3,7 @@ import './nav.css';
 import '../../App.css';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon,} from '@fortawesome/react-fontawesome'
-import { faCoffee, faHouse} from '@fortawesome/free-solid-svg-icons';
+import { faHouse} from '@fortawesome/free-solid-svg-icons';
 import DrawerView from './DrawerView';
 import SocialIcons from './SocialIcons';
 export default function Navbar() {
