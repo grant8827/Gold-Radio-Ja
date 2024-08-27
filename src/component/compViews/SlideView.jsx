@@ -19,7 +19,7 @@ function SlideView() {
       <div className="each-slide-effect" >
                 <div style={{ 'backgroundImage': `url(${images[0]})` }}>
                 <div className='slides' style={{backgroundColor:'#00000030',}}>
-                    <img style={{margin:'10px', width:'300px'}} src={slideimg2}/>
+                    <img style={{margin:'10px', width:'300px'}} src={slideimg2} alt='slide1'/>
                     <h3 style={{color:'white', backgroundColor:'#0000001F'}}>Saturday Morning Praise with Pastor Ivan Hall</h3>
 
                     </div>
@@ -29,7 +29,7 @@ function SlideView() {
                 <div style={{ 'backgroundImage': `url(${images[1]})` }}>
                    
                     <div className='slides' style={{backgroundColor:'#00000030', margin:'10px', }} >
-                    <img style={{margin:'10px', width:'300px'}} src={slideimg1}/>
+                    <img style={{margin:'10px', width:'300px'}} src={slideimg1} alt='slide2'/>
                     <h3 style={{color:'white',  backgroundColor:'#00000030'}}>The Prophetic Company with Prophetess Al Marie Campbell</h3>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ function SlideView() {
                 <div style={{ 'backgroundImage': `url(${images[2]})` }}>
                
                     <div className='slides' style={{backgroundColor:'#00000030', margin:'10px', }}>
-                    <img style={{margin:'10px', width:'300px'}} src={slideimg3}/>
+                    <img style={{margin:'10px', width:'300px'}} src={slideimg3} alt='slide3'/>
                     <h3 style={{color:'white',  backgroundColor:'#00000030'}}>Arise Jamaica Arise world with Pastor Ivan hall</h3>
 
                     </div>

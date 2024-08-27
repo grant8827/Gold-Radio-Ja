@@ -12,7 +12,7 @@ export default function Navbar() {
     <div className='mainNav'>
    <SocialIcons/>
         <div style={{backgroundColor:'#FFFAE6', height:'220px', padding:'20px', textAlign:'center'}}>
-        <img style={{borderRadius:'20px'}} src={logo} />
+        <img style={{borderRadius:'20px'}} src={logo} alt='logo' />
         </div>
         <nav className='navBar' style={{backgroundColor:'#f7e99a', height:"50px", width:"auto", }}>
             <ul className='navStyle'>

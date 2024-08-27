@@ -6,7 +6,7 @@ function AboutOwner() {
   return (
     <div>
         <div className='abourtOwne' style={{display:'flex', justifyContent:'center',}}>
-            <img style={{width:'300px', margin:'20px'}} src={ivanHall}/>
+            <img style={{width:'300px', margin:'20px'}} src={ivanHall} alt='owner image'/>
             
             <div className='owerDetails' style={{margin:'20px', width:'100%',}}>
             <h3>OASIS IN THE DESERT</h3> 
