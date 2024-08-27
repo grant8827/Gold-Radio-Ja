@@ -20,15 +20,13 @@ function DrawerView() {
                 direction='left'
                 className='bla bla bla'
                 
-                style={{width:'200px',}}
-            >
+                style={{width:'200px',}}>
               <img width='200px' src={logo} alt='logo'/>
                <ul style={{alignContent:'left', margin:'auto', justifyContent:'left', listStyle:'none', float:'left', textAlign:'left'}}>
                 <li style={{marginTop:'20px',}} >  <Link style={{ textDecoration:'none', color:'#000000' }}  to="/">Home</Link></li>
                 <li style={{marginTop:'20px',}} ><Link style={{ textDecoration:'none', color:'#000000'}}  to="/About">About</Link></li>
                 <li style={{marginTop:'20px',}} > <Link  style={{ textDecoration:'none', color:'#000000'}}  to="/Schedule">Schedule</Link></li>
-                <li style={{marginTop:'20px',}} ><Link style={{ textDecoration:'none', color:'#000000'}}  to="/Contact">Contact</Link></li>
-                
+                <li style={{marginTop:'20px',}} ><Link style={{ textDecoration:'none', color:'#000000'}}  to="/Contact">Contact</Link></li> 
             </ul>
             
             </Drawer> 

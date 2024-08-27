@@ -19,8 +19,7 @@ export default function Navbar() {
                 <li> <FontAwesomeIcon icon={faHouse} /><Link style={{margin:'10px'}} to="/">Home</Link></li>
                 <li><Link  to="/About">About</Link></li>
                 <li> <Link  to="/Schedule">Schedule</Link></li>
-                <li><Link to="/Contact">Contact</Link></li>
-               
+                <li><Link to="/Contact">Contact</Link></li> 
             </ul>
             <div className='drawerMenu'> <DrawerView/></div>
         </nav>
