@@ -3,7 +3,7 @@ import Drawer from 'react-modern-drawer';
 import {Link} from 'react-router-dom';
 import {  faBars} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon,} from '@fortawesome/react-fontawesome'
-
+import logo from '../assets/images/gold_radioja.png'
 //import styles 👇
 import 'react-modern-drawer/dist/index.css'
 function DrawerView() {
@@ -22,7 +22,7 @@ function DrawerView() {
                 
                 style={{width:'200px',}}
             >
-              <img width='200px' src={require('../assets/images/gold_radioja.png')}/>
+              <img width='200px' src={logo}/>
                <ul style={{alignContent:'left', margin:'auto', justifyContent:'left', listStyle:'none', float:'left', textAlign:'left'}}>
                 <li style={{marginTop:'20px',}} >  <Link style={{ textDecoration:'none', color:'#000000' }}  to="/">Home</Link></li>
                 <li style={{marginTop:'20px',}} ><Link style={{ textDecoration:'none', color:'#000000'}}  to="/About">About</Link></li>

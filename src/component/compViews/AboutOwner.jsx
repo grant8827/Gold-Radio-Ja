@@ -1,11 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import '../pages/pagesStyles.css'
+import { Link, alt} from 'react-router-dom'
+import '../pages/pagesStyles.css';
+import ivanHall from '../assets/images/ivanhallimg.png'
 function AboutOwner() {
   return (
     <div>
         <div className='abourtOwne' style={{display:'flex', justifyContent:'center',}}>
-            <img style={{width:'300px', margin:'20px'}} src={require('../assets/images/ivanhallimg.png', )}/>
+            <img style={{width:'300px', margin:'20px'}} src={ivanHall}/>
             
             <div className='owerDetails' style={{margin:'20px', width:'100%',}}>
             <h3>OASIS IN THE DESERT</h3> 
