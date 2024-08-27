@@ -3,7 +3,7 @@ import React from 'react'
 function Schedule() {
   return (
     <div style={{ width:'100%', height:'500px'}}>
-      <div style={{margin:'180px', width:'auto', margin:'auto', justifyContent:'center'}}>
+      <div className='schedulePage' style={{ width:'auto', margin:'auto', justifyContent:'center'}}>
         <ul className='sheduleList'>
           <li>Marriage Talk with Susan Baker</li>
           <li>Gospel In Motion with Pastor Ivan Hall</li>
