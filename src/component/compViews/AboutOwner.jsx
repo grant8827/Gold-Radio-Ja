@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, alt} from 'react-router-dom'
+import { Link,} from 'react-router-dom'
 import '../pages/pagesStyles.css';
 import ivanHall from '../assets/images/ivanhallimg.png'
 function AboutOwner() {
